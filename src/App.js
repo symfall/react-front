@@ -12,6 +12,7 @@ import Footer from './components/Footer.jsx'
 // block import assets files (styles and images)
 import logo from './assets/images/logo.svg';
 import './assets/styles/App.scss';
+import './assets/styles/Header.scss';
 // end block import assets files (styles and images)
 
 export default function App() {
