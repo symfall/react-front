@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Footer () {
     return (
-        <p>Footer</p>
+        <footer className='appFooter'>
+            <h3 className='copyright'>&copy; Symfall 2021</h3>
+        </footer>
     )
 }

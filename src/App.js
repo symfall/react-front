@@ -10,34 +10,18 @@ import Footer from './components/Footer.jsx'
 // end block import components
 
 // block import assets files (styles and images)
-import logo from './assets/images/logo.svg';
 import './assets/styles/App.scss';
 import './assets/styles/Header.scss';
+import './assets/styles/Footer.scss';
 // end block import assets files (styles and images)
 
 export default function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <Switch>
           <Route path='/hello_world' component={HelloWorld} />
         </Switch>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Link to='/'>Home</Link>
-        <Link to='/hello_world'>Hello</Link>
-      </header>
       <Footer />
     </div>
   );
