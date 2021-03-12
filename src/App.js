@@ -1,7 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// block import libraries
+import React from 'react'
+// end block import libraries
 
-function App() {
+// block import components
+import HelloWorld from './components/HelloWorld.jsx'
+// end block import components
+
+// block import assets files (styles and images)
+import logo from './assets/images/logo.svg';
+import './assets/styles/App.css';
+// end block import assets files (styles and images)
+
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +19,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <HelloWorld />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+
