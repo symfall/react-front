@@ -11,7 +11,7 @@ import Footer from './components/Footer.jsx'
 
 // block import assets files (styles and images)
 import logo from './assets/images/logo.svg';
-import './assets/styles/App.css';
+import './assets/styles/App.scss';
 // end block import assets files (styles and images)
 
 export default function App() {
