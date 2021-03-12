@@ -5,6 +5,8 @@ import {Route, Switch, Link} from 'react-router-dom'
 
 // block import components
 import HelloWorld from './components/HelloWorld.jsx'
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 // end block import components
 
 // block import assets files (styles and images)
@@ -15,6 +17,7 @@ import './assets/styles/App.css';
 export default function App() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -34,6 +37,7 @@ export default function App() {
         <Link to='/'>Home</Link>
         <Link to='/hello_world'>Hello</Link>
       </header>
+      <Footer />
     </div>
   );
 }
