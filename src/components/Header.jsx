@@ -6,9 +6,9 @@ export default function Header () {
 
     const links = [
         {href: '/', title: 'Home'},
-        {href: '#', title: 'Chat'},
-        {href: '#', title: 'Profile'},
-        {href: '#', title: 'Settings'},
+        {href: '/chat', title: 'Chat'},
+        {href: '/profile', title: 'Profile'},
+        {href: '/settings', title: 'Settings'},
     ]
 
     return (
