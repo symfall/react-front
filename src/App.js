@@ -1,5 +1,6 @@
 // block import libraries
 import React from 'react'
+import {Route, Switch, Link} from 'react-router-dom'
 // end block import libraries
 
 // block import components
@@ -19,7 +20,9 @@ export default function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <HelloWorld />
+        <Switch>
+          <Route path='/hello_world' component={HelloWorld} />
+        </Switch>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -28,6 +31,8 @@ export default function App() {
         >
           Learn React
         </a>
+        <Link to='/'>Home</Link>
+        <Link to='/hello_world'>Hello</Link>
       </header>
     </div>
   );
