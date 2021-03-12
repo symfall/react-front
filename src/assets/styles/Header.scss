@@ -1,0 +1,36 @@
+.appHeader {
+    background-color: rgb(211, 85, 85);
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    .headerLogo {
+       margin: 0px 5px 0px 10px;
+       transition: 0.3s;
+    }
+    
+    .headerLogo:hover {
+        transition: 0.3s;
+        transform: scale(1.05, 1.05);
+    }
+
+    .navList{
+        list-style: none;
+    }
+
+    .navItem {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .navLink {
+        color: #ccc;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .navLink:hover {
+        color: white;
+        transition: 0.3s;
+    }
+}
